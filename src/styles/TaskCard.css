@@ -1,0 +1,75 @@
+.task-form {
+  position: absolute;
+  background-color: white;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  top: 30%;
+  left: 30%;
+  width: 100%;
+  min-width: 300px;
+  max-width: 33vw;
+  padding: 12px;
+  text-align: left;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.form--field {
+  position: relative;
+  display: block;
+  padding: 8px;
+  width: 100%;
+  min-height: 66px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form__button {
+  flex: 0 0 auto;
+}
+
+.delete__button {
+  background-color: coral;
+}
+
+input, select, textarea {
+  width: 92%;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  height: 54px;
+  border-radius: 4px;
+  color: black;
+  box-sizing: border-box;
+  padding-left: 12px;
+  padding-top: 4px;
+}
+
+textarea {
+  padding-top: 8px;
+  height: 84px;
+}
+
+label {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4375em;
+  letter-spacing: 0.00938em;
+  padding: 0;
+  position: absolute;
+  top:0;
+  background-color: white;
+  transform: translate(12px, -2px) scale(0.75);
+  transform-origin: top left;
+}
+
+select {
+  text-align: center;
+  padding:0;
+  padding: 12px;
+}

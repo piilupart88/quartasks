@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Quartasks App",
+  "name": "Quartasks",
   "icons": [
     {
       "src": "favicon.ico",

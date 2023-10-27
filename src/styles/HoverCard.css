@@ -1,0 +1,9 @@
+.hover-card {
+  position: absolute;
+  background: transparent;
+  color: black;
+  visibility: hidden;
+  border-radius: 16px;
+  padding: 12px;
+
+}

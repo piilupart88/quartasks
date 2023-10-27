@@ -1,0 +1,50 @@
+.quarter {
+  padding: 20px;
+}
+
+.month-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+}
+
+.month-cell {
+  flex: 1 1 auto;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  height: 40px;
+  text-align: center;
+  font-weight: bold;
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.week-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  font-size: 14px;
+}
+
+.week-cell {
+  flex: 1 1 auto;
+  border: 0.5px solid rgba(0, 0, 0, 0.23);
+  height: 30px;
+
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.occupied {
+  flex: 1 1 auto;
+  height: 30px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(244, 179, 201);
+}

@@ -1,0 +1,38 @@
+.container {
+  position: relative;
+  text-align: center;
+  width: 92vw;
+  margin: auto;
+}
+
+.header {
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.title {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  width: 30vw;
+  text-align: center;
+}
+
+button {
+  min-width: 60px;
+  min-height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  background-color: #dfd5f6;;
+  border-radius: 8px;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+
+  &:active {
+    background-color:#dfd5f6;
+    color: white;
+  }
+}
